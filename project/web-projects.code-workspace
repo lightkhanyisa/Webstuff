@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "web-projects",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "practice-web"
+	}
+}

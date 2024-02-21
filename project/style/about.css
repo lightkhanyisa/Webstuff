@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(119, 67, 67, 0.3),rgb(76, 76, 126));
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px 7%  0%  20%;
+}
+
+.nav-links li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 30px;
+    text-decoration: none;
+
+}
+
+.nav-links a{
+   text-align: none;
+   color: aliceblue;
+   text-decoration: none;
+}
+
+/*
+Then we style the txt and images to be displayed
+*/

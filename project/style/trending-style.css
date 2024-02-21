@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(/Travel/images/story-3.png) ;
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px 7%  0%  20%;
+}
+
+
+.nav-links li{
+     list-style: none;
+     display: inline-block;
+     margin: 10px 30px;
+     text-decoration: none;
+
+}
+
+.nav-links a{
+    text-align: none;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.trending {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-gap: 30px;
+    margin-bottom: 30px;
+}
+
+.trending div img {
+      width: 100%;
+      border-radius: 10px;
+}
+.trending h3{
+    font-weight: 600;
+    color: #fff;
+    margin-top: 10%;
+}
+
+.sub-title{
+    margin-top: 10px;
+    margin-bottom: 45px;
+    color: #fff;
+}

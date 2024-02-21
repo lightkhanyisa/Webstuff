@@ -1,0 +1,134 @@
+/*
+import fonts from googlefonts.com
+*/
+
+
+
+*{
+    color: #343434;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #a77474;
+    display: flex;
+}
+
+.header{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px 7%  0%  20%;
+}
+
+.nav-links li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 30px;
+    text-decoration: none;
+
+}
+
+.nav-links a{
+   text-align: none;
+   color: aliceblue;
+   text-decoration: none;
+}
+
+
+hl{
+    font-size: 33px;
+    font-family: 600;
+    padding: 200px 0
+}
+
+.side-bar{
+    background-color: rgb(130, 130, 130);
+    width: 244px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.info{
+    color: black;
+    font-size: 25px;
+}
+
+input{
+    border: none;
+    background-color: rgba(255,255,255,0.5);
+    width: 100%;
+    font-size:20px;
+    padding: 12px 15px;
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.5) 0 54px 55px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.input-container{
+    position: relative;
+    width: 100%;
+    max-width: 650px;
+}
+
+.input-container #submit{
+    position: absolute;
+    right: 0;
+    bottom: 15px;
+    cursor: pointer;
+}
+
+.bottom-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    border: solid 0.5px rgba(255,255,255,0.5);
+    background-color: transparent;
+    border-radius:5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav{
+    border-top: solid 0.5px rgba(255, 255,255,0.5);
+    padding: 10px;
+    margin: 10px;
+}
+
+.history{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction:column;
+    height: 100%;
+}
+
+.history p{
+    cursor: pointer;
+}
